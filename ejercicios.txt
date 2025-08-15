@@ -1,0 +1,54 @@
+## 🚀 Ejercicios Prácticos en Clase
+
+### 1. Saludo Personalizado
+
+- Pide al usuario su nombre y edad
+- Muestra un mensaje personalizado usando ambos datos
+
+### 2. Calculadora Simple
+
+- Pide dos números al usuario
+- Muestra la suma, resta, multiplicación y división de ambos
+
+### 3. Lista de Compras
+
+- Crea un array vacío
+- Pide al usuario 3 productos y agrégalos al array
+- Muestra la lista completa en consola
+
+### 4. Clasificador de Números
+
+- Crea un array con 5 números
+- Recorre el array y muestra si cada número es par o impar
+
+### 5. Promedio de Calificaciones
+
+- Pide al usuario 5 calificaciones y guárdalas en un array
+- Calcula y muestra el promedio
+
+### 6. Buscador en Array
+
+- Crea un array con varios nombres
+- Pide al usuario un nombre y verifica si está en el array
+- Muestra un mensaje indicando si se encontró o no
+
+### 7. Contador de Vocales
+
+- Pide al usuario una palabra
+- Cuenta cuántas vocales tiene y muestra el resultado
+
+### 8. Inversor de Texto
+
+- Pide al usuario una frase
+- Muestra la frase invertida (al revés)
+
+### 9. Números Primos en un Rango
+
+- Pide al usuario dos números (inicio y fin)
+- Muestra todos los números primos en ese rango
+
+### 10. Juego de Adivinanza
+
+- Genera un número aleatorio entre 1 y 20
+- Pide al usuario que adivine el número
+- Da pistas si el número es mayor o menor hasta que acierte
