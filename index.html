@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 14</title>
-    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 14</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>Ejercicios de javascript, dadas por el profe</h1>
-    <p>Quieres hacer un cambio de colores? Presiona el boton!!</p>
-    <button onclick="colores()"></button>
-    <section id="sec1" class="section">
+  <h1>Ejercicios de javascript, dadas por el profe</h1>
+  <p>¿Quieres hacer un cambio de colores? ¡Presiona el botón!</p>
 
-        <div class="container-datos">
-            <form action="" id="miformulario">
-           <label for="">Nombre</label><input type="text" id="nombre">
-           <br>
-           <label for="">Edad</label>
-           <input type="number" id="edad">
+  <!-- Botón visible -->
+  <button type="button" onclick="colores()">Cambiar colores</button>
 
-            <input class="container-datos-submit" type="submit">
-            
-            </form>
-        </div>
-      
-        <span class="container-datos-span" id="button"></span>
-        
+  <section id="sec1" class="section">
+    <div class="container-datos" id="caja-datos">
+      <form action="" id="miformulario">
+        <label id="caja-datos-nombre" for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+        <br>
+        <label id="caja-datos-edad" for="edad">Edad</label>
+        <input type="number" id="edad">
+        <br>
+        <input class="container-datos-submit" type="submit" value="Enviar">
+      </form>
+    </div>
+    <!-- Aquí se muestra el mensaje -->
+    <span class="container-datos-span" id="button"></span>
+  </section>
 
-    </section>
-    <section class="section"></section>
-    <section></section>
-    <section></section>
+  <section class="section"></section>
+  <section></section>
+  <section></section>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
