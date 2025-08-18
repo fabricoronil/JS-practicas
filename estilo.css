@@ -26,3 +26,33 @@ button {
     cursor: pointer;
 }
 
+#sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container-datos {
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 200px;
+}
+
+.container-datos-span {
+    margin-top: 20px;
+}
+
+.container-datos-submit {
+    background-color: white;
+    width: 140px;
+    height: 26px;
+    position: relative;
+    left: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}

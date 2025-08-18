@@ -10,14 +10,22 @@
     <h1>Ejercicios de javascript, dadas por el profe</h1>
     <p>Quieres hacer un cambio de colores? Presiona el boton!!</p>
     <button onclick="colores()"></button>
-    <section class="section">
+    <section id="sec1" class="section">
 
-        <div>
-           <label for="">Nombre</label><input type="text">
+        <div class="container-datos">
+            <form action="" id="miformulario">
+           <label for="">Nombre</label><input type="text" id="nombre">
+           <br>
            <label for="">Edad</label>
-           <input type="text">
+           <input type="number" id="edad">
 
+            <input class="container-datos-submit" type="submit">
+            
+            </form>
         </div>
+      
+        <span class="container-datos-span" id="button"></span>
+        
 
     </section>
     <section class="section"></section>

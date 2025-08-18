@@ -5,6 +5,10 @@ let p = document.querySelector("p")
 
 let mododecolor = true;
 
+let sec1inp = document.querySelector ()
+
+
+
 function colores() {
 
     if (mododecolor) {
@@ -14,6 +18,7 @@ function colores() {
    body.style.backgroundColor = "black"
    h1.style.color = "white"
    p.style.color = "white"
+
 
    mododecolor = false;
     } else {
@@ -27,3 +32,19 @@ function colores() {
 
   
 }
+
+
+const formulario = document.getElementById("miformulario")
+
+const inputNombre = document.getElementById("nombre")
+const inputedad = document.getElementById("edad")
+const resultado = document.getElementById("button")
+
+formulario.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const nombre = inputNombre.value.trim();
+    const edad = inputedad.value.trim()
+
+     resultado.textContent = `!Bienvenido ${nombre}, , tienes ${edad}`;
+})
